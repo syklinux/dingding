@@ -66,19 +66,6 @@ class dingding(object):
         return a["errmsg"]
 
 
-    def send_ActionCard(self):
-        btns1 = [{"title": "查看详情", "actionURL": "https://www.dingtalk.com/"}]
-        actioncard1 = ActionCard(title='万万没想到，竟然...',
-                                 text='![选择](http://www.songshan.es/wp-content/uploads/2016/01/Yin-Yang.png) \n### 故事是这样子的...',
-                                 btns=btns1,
-                                 btn_orientation=1,
-                                 hide_avatar=1)
-        self.ding.send_action_card(actioncard1)
-        pass
-
-
-
-
 a = dingding()
 # print(a.send_msg("sasas",))
 # print(a.send_msg("sasas","111111111"))
