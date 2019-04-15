@@ -6,7 +6,7 @@ import json
 class dingding(object):
 
     def __init__(self):
-        self.webhook = 'https://oapi.dingtalk.com/robot/send?access_token=c5173e7a71cdb9592f63f968aff1d6460ea40e0d79feacb029f3349a5025bbe1'
+        self.webhook = 'hasjkdhajkhdkajhdkajhsdjkahd'
         self.ding = DingtalkChatbot(self.webhook)
 
 
