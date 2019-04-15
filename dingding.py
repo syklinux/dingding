@@ -1,4 +1,4 @@
-
+# pip install DingtalkChatbot
 from dingtalkchatbot.chatbot import DingtalkChatbot, FeedLink, ActionCard
 import json
 
